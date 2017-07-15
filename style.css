@@ -1,0 +1,120 @@
+body {
+    background: #B2000F;
+    color: white;
+    
+}
+
+h1 {
+    font-family: Nevis;
+    font-size: 54px;
+    
+    
+}
+
+#poslji {
+    color: black;
+    background: white;
+    border: none;
+    padding: 15px 40px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #B2000F;
+    font-size: 32px;
+    border-radius: 5px;
+}
+
+#poslji:hover {
+    background: #7F0000;
+    color:white;
+   
+}
+
+input[type=submit] {
+    color: black;
+    background: white;
+    border: none;
+    color: #7F0000;
+}
+
+input[type=submit]:hover {
+    background: #7F0000;
+    color:white;
+}
+
+input[type=radio] {
+    width: 2em;
+    height: 2em;
+    
+
+    
+}
+
+.container {
+
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.main {
+    text-align: center;
+}
+
+.levi img, .desni img {
+    height: 120px;
+    border: 10px double white;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.levi img:hover {
+    background: white;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.sredinski {
+    padding: 20% 0;
+}
+
+.sredinski img {
+    height: 200px;
+}
+
+.rezultat {
+    background: #7F0000;
+    padding: 30px 0px;
+    border-radius: 10px;
+    border: 6px inset #7F0000;
+
+    box-shadow: 10px 10px 5px black;
+    height: 272px;
+}
+
+
+
+.bottom {
+    margin-top: 80px;
+    border-top: 3px solid;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.statistika {
+    text-align: right;
+}
+
+.arhiv {
+    text-align: left;
+    background: #7F0000;
+    box-shadow: 10px 10px 5px black;
+    height: 120px;
+}
+
